@@ -1,0 +1,12 @@
+#container {
+    width: 500px;    
+    /*width = number of items in a row * width of an item + (number of items in a row -1)* gap width */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+}
+
+
+.item {    
+    background-color: chocolate;
+}
